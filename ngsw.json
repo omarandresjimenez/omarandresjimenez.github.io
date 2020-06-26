@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1592864236757,
+  "timestamp": 1593199331274,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.a2e19edbb9d09b57c26d.js",
-        "/main-es5.a2e19edbb9d09b57c26d.js",
+        "/main-es2015.fb8c092e9ed6d1c5d1ea.js",
+        "/main-es5.fb8c092e9ed6d1c5d1ea.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.d3e61f0dd2b58e518eca.js",
         "/polyfills-es5.517f1d5415025b3e9b1a.js",
@@ -35,7 +35,8 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/placeholder.png"
+        "/assets/placeholder.png",
+        "/assets/top-headlines.json"
       ],
       "patterns": []
     }
@@ -44,7 +45,7 @@
     {
       "name": "headlines",
       "patterns": [
-        "https:\\/\\/newsapi\\.org\\/v2\\/.*"
+        "\\/assets\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 10,
@@ -63,10 +64,11 @@
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/placeholder.png": "7ed8a234babfe4f542c99455a3194a05bdaa871a",
+    "/assets/top-headlines.json": "690f6d7f870491a50fb111e295eacb8e66bd4cb5",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "1b0b60b583dd07b5905d043e4feaf977afc43ae8",
-    "/main-es2015.a2e19edbb9d09b57c26d.js": "0c174d5270b08ecf4e1c73ccb5c06f264098d7a8",
-    "/main-es5.a2e19edbb9d09b57c26d.js": "bc58ba2a3df6d2e16e084bd6f0861d6729e478e9",
+    "/index.html": "cb5d2d231efac9f8a1c41df066c3f39134f55283",
+    "/main-es2015.fb8c092e9ed6d1c5d1ea.js": "da86de86a207f0b47cfa64cb463403afc1e01be2",
+    "/main-es5.fb8c092e9ed6d1c5d1ea.js": "af2ec3c465d0e110624736033394889c07fed9af",
     "/manifest.webmanifest": "28f57a8b483906c88d9de996fa9c0b2f908bb2d1",
     "/polyfills-es2015.d3e61f0dd2b58e518eca.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
     "/polyfills-es5.517f1d5415025b3e9b1a.js": "db091f7ef692a1d3add240459a2ea20c81cd6f19",
