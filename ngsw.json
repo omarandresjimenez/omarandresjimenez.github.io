@@ -1,6 +1,5 @@
 {
   "configVersion": 1,
-  "timestamp": 1630963603857,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,17 +9,14 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.76eb9ee7c607dd59ccf9.js",
-        "/main-es5.76eb9ee7c607dd59ccf9.js",
-        "/manifest.webmanifest",
-        "/polyfills-es2015.1f913f16a2d346cc8bdc.js",
-        "/polyfills-es5.1a3c78b07cd6f16c6e9a.js",
-        "/runtime-es2015.0811dcefd377500b5b1a.js",
-        "/runtime-es5.0811dcefd377500b5b1a.js",
-        "/service-worker.js",
-        "/styles.3ff695c00d717f2d2a11.css"
+        "/main.53bac2565d46ad456a28.js",
+        "/polyfills.c73631205450cdf588fb.js",
+        "/runtime.a66f828dca56eeb90e02.js",
+        "/styles.d7e0e74f3c5d40dd24b6.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -41,15 +37,14 @@
   ],
   "dataGroups": [
     {
-      "name": "api-call",
+      "name": "jokes-api",
       "patterns": [
-        "https:\\/\\/dummy\\.restapiexample\\.com\\/api\\/v1\\/employees",
-        "https:\\/\\/execeye-api\\.connectcdk\\.com\\/v1\\/lang"
+        "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random"
       ],
       "strategy": "freshness",
-      "maxSize": 10,
-      "maxAge": 43200000,
-      "timeoutMs": 0,
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
       "version": 1
     }
   ],
@@ -62,17 +57,12 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "23e284d05d9dfffbc3589a2acd0a217a77e63a02",
-    "/main-es2015.76eb9ee7c607dd59ccf9.js": "6ea0dcb276108caca8ad77baab0c486049c935f7",
-    "/main-es5.76eb9ee7c607dd59ccf9.js": "c7fa24181dae93eb997424c67a910239344792fb",
-    "/manifest.webmanifest": "5b0c60f200b803e3ab267fa90a1d28a68c27c5e0",
-    "/polyfills-es2015.1f913f16a2d346cc8bdc.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "/polyfills-es5.1a3c78b07cd6f16c6e9a.js": "61aa6b50157596c4e9c7eff44cfe76b22836d5a3",
-    "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/service-worker.js": "2e56d4d825bdb5df60a707346c526b3e3dd6b647",
-    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "30ac95f741f63359457b737f8ca3418814c32f70",
+    "/main.53bac2565d46ad456a28.js": "dc843c6358bec42b50ed2ed9441cdaf7de4fc16c",
+    "/polyfills.c73631205450cdf588fb.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.d7e0e74f3c5d40dd24b6.css": "90e57ae0b3fc1e90173605f966d54d031f17aed1"
   },
   "navigationUrls": [
     {
@@ -81,15 +71,15 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
     }
   ]
 }
