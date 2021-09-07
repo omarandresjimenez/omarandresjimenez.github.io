@@ -632,16 +632,15 @@
   ],
   "dataGroups": [
     {
-      "name": "api-performance-3",
+      "name": "api-performance-4",
       "patterns": [
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/lang",
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs\\*"
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/lang"
       ],
       "strategy": "freshness",
       "maxSize": 100,
       "maxAge": 266400000,
-      "timeoutMs": 10,
-      "version": 3
+      "timeoutMs": 0,
+      "version": 4
     }
   ],
   "hashTable": {
