@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="216px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="6"></circle>
+    </defs>
+    <g>
+        <circle id="stroke" fill="#FFFFFF" fill-rule="evenodd" cx="8" cy="8" r="8"></circle>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="mask" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Colors/Series/C01-Primary" mask="url(#mask-2)" fill="#004E9A" fill-rule="evenodd">
+            <g transform="translate(2.000000, 2.000000)" id="color">
+                <rect x="0" y="0" width="12" height="12"></rect>
+            </g>
+        </g>
+        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="6.951417 4 6 4.94 9.09041835 8 6 11.06 6.951417 12 11 8"></polygon>
+    </g>
+</svg>
