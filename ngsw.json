@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1631107977547,
+  "timestamp": 1631107977548,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -28,13 +28,13 @@
         "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random",
         "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/lang",
         "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs*",
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs\\.*"
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/control\\-center*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
       "maxAge": 266400000,
       "timeoutMs": 0,
-      "version": 7
+      "version": 8
     }
   ],
   "hashTable": {
