@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1631107977546,
+  "timestamp": 1631107977547,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -26,13 +26,15 @@
       "name": "api-performance-new",
       "patterns": [
         "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random",
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/lang"
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/lang",
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs*",
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs\\.*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
       "maxAge": 266400000,
       "timeoutMs": 0,
-      "version": 6
+      "version": 7
     }
   ],
   "hashTable": {
