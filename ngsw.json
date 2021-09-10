@@ -1,6 +1,6 @@
 {
-  "configVersion": 12,
-  "timestamp": 1631107977549,
+  "configVersion": 1,
+  "timestamp": 1631107977570,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -26,14 +26,13 @@
       "name": "api-performance-new",
       "patterns": [
         "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/docs*",
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/control\\-center*",
-        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/controlcenterdetail*"
+        "https:\\/\\/execeye\\-api\\.connectcdk\\.com\\/v1\\/control\\-center*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
       "maxAge": 266400000,
       "timeoutMs": 0,
-      "version": 12
+      "version": 13
     }
   ],
   "hashTable": {
